@@ -6,7 +6,7 @@
 	<groupId>de.gwasch.code.parent</groupId>
 	<artifactId>parent</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0.0</version>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<name>Parent POM</name>
 	<url>https://gwasch.de</url>
