@@ -25,6 +25,17 @@
 			<url>http://www.opensource.org/licenses/mit-license.php</url>
 		</license>
 	</licenses>
+	
+	<issueManagement>
+		<system>GitHub issues</system>
+		<url>https://github.com/chrissilb/${project.artifactId}</url>
+	</issueManagement>
+
+	<scm child.scm.connection.inherit.append.path="false" child.scm.developerConnection.inherit.append.path="false" child.scm.url.inherit.append.path="false">
+		<connection>scm:git:git@github.com:chrissilb/${project.artifactId}.git</connection>
+		<developerConnection>scm:git:git@github.com:chrissilb/${project.artifactId}.git</developerConnection>
+		<url>http://github.com/chrissilb/${project.artifactId}</url>
+	</scm>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
